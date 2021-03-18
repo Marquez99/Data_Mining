@@ -78,5 +78,22 @@ my_name <- readline(prompt="Ingrese su nombre: ")
 
 print(paste("Hola,", my_name))
 
+#FUNCION 17 (WIN DIALOGS)
+library(utils)
 
+winDialog(type="ok", message="¿Usted quiere BORRAR el archivo?")
+
+#FUNCION 18 (MODE Y LENGHT)
+W <- 1
+mode(W)
+length(W)
+
+#FUNCION 19 (MATEMATICAS)
+angulos <- c(0, pi/2, pi)
+sin(angulos)
+
+#FUNCION 20 (As. Date)
+
+navidad=as.Date("2013-12-25")
+navidad
 
