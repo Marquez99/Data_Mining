@@ -1,6 +1,6 @@
 # Data_Mining
-## Repositorio para la Clase de Minería de Datos.
-<p align="center">
+
+
   
 
 ### Tecnológico   Nacional   de   México
@@ -21,6 +21,7 @@ TIF-1003 TI8A Minería de Datos
 
 #### NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
 Márquez Enríquez Kevin Edwin		17212923
+Quiroz Montes Yim Yetzhael          17210623
 
 #### NOMBRE DEL DOCENTE:
 Jose Christian Romero Hernandez
