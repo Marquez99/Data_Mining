@@ -2,7 +2,6 @@
 
 # Repository for the Data Mining Class.
 
-![ ](https://drive.google.com/file/d/11-7dsQiQCTFBj8qhAED72Bf_wClte-YR/view?usp=sharing)
 ## National Technology of Mexico
 
 **Technological Institute of Tijuana**
