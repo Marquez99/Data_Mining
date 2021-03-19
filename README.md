@@ -1,33 +1,29 @@
-# Data_Mining
-## Repositorio para la Clase de Minería de Datos.
-<p align="center">
-  
-
-### Tecnológico   Nacional   de   México
-### Instituto Tecnológico de Tijuana
-
-#### Subdirección Académica
-
-#### Departamento de Sistemas y Computación
 
 
+# Repository for the Data Mining Class.
 
-#### SEMESTRE:
-Febrero - Julio 2021
+![ ](https://drive.google.com/file/d/11-7dsQiQCTFBj8qhAED72Bf_wClte-YR/view?usp=sharing)
+## National Technology of Mexico
 
- #### CARRERA:
-Ingeniería en Tecnologías de la Información y Comunicaciones
+**Technological Institute of Tijuana**
 
-#### MATERIA Y SERIE:
-Minería de Datos
-TIF-1003 TI8A
+**Academic Subdirectorate**
 
-#### NOMBRE Y NÚMERO DE CONTROL DEL ALUMNO:
-Márquez Enríquez Kevin Edwin		17212923
+**Systems and Computing Department
+SEMESTER:**
+February - July 2021
 
-#### NOMBRE DEL DOCENTE:
+**CAREER:**
+Information Technology and Communications Engineering
+
+**MATERIAL AND SERIES:**
+Data Mining TIF-1003 TI8A
+
+**STUDENT NAME AND CONTROL NUMBER:**
+Marquez Enriquez Kevin Edwin 17212923
+Quiroz Montes Yim Yetzhael      17210623 
+
+**TEACHER'S NAME:**
 JOSE CHRISTIAN ROMERO HERNANDEZ
 
-
-Tijuana, Baja California				
-</p>
+**Tijuana Baja California**
