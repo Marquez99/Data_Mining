@@ -32,14 +32,22 @@ qplot(data=TestData_1960, x=Fertility.Rate, xlab = "Fertility", y=Life_1960, yla
 
 #PARTE #2 
 # [I] 2013
+
 filter_2013 <- TestData$Year==2013
 filter_2013
 TestData_2013 <- TestData[filter_2013,]
 TestData_2013
+#Nos permite visualizar el testdata_2013
+#It allows us to visualize the testdata_2013
 head(TestData_2013)
 TestData_2013 <- merge(TestData_2013, DataLife, by.x = "Country.Code", by.y = "Code")
+#Nos permite visualizar el testdata_2013 pero con los ejes x="country" y="code"
+#It allows us to visualize the testdata_2013
 head(TestData_2013)
 TestData_2013$Life_1960 <- NULL
 head(TestData_2013)
+
+#se representa el plot en el cual en el eje x sera "Fertility" y eje  y"life expentancy" el titulo sera el año 2013 
+#The plot is represented in which the x-axis will be "Fertility" and the y-axis "life expentancy" the title will be the year 2013
 qplot(data=TestData_2013, x=Fertility.Rate,  xlab = "Fertility", y=Life_2013, ylab = "Life Expectancy", main = "Year 2013", color=Region, size=I(1))
 # [F] 2013
