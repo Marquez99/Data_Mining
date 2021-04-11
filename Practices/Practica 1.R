@@ -10,7 +10,12 @@ N <-10
 #3. loop for(i in rnorm(size))
 for (i in rnorm(N)){
   
-#Aqui es segunda parte 
+#Aqui es segunda parte
+  #4. Check if the iterated variable falls
+  if (i >= -1 & i<= 1){
+    #5. Increase counter if the condition is true
+    counter <- counter +1
+  }
   
 }
 

@@ -28,7 +28,6 @@ Jose Christian Romero Hernandez
 
 
 Tijuana, Baja California				
-</p>
 
 #### Practice 3
 Scenario: You are a Data Scientist working for a consulting firm.
