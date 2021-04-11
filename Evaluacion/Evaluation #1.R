@@ -1,4 +1,6 @@
-#Evaluacion_1 Marquez Kevin,Quiroz Yim
+#Evaluacion_1 
+#Quiroz Yim 17210623
+#Marquez Kevin 17212923
 
 
 #Execute below code to generate three new vectors
@@ -8,46 +10,56 @@ Life_Expectancy_At_Birth_2013 <- c(75.3286585365854,60.0282682926829,51.86617073
 #(c) Kirill Eremenko, www.superdatascience.com
 
 library(ggplot2)
-TestData <- read.csv(file.choose())
-TestData
+Data <- read.csv(file.choose())
+Data
 #Data Life Expectancy
 DataLife <- data.frame(Code= Country_Code, Life_1960=Life_Expectancy_At_Birth_1960,
                        Life_2013=Life_Expectancy_At_Birth_2013)
 head(DataLife)
 
 # [I] 1960
-filter_1960 <- TestData$Year==1960
+filter_1960 <- Data$Year==1960
 filter_1960
-TestData_1960 <- TestData[filter_1960,]
-TestData_1960
-head(TestData_1960)
-TestData_1960 <- merge(TestData_1960, DataLife, by.x = "Country.Code", by.y = "Code")
-head(TestData_1960)
-TestData_1960$Life_2013 <- NULL
-head(TestData_1960)
-qplot(data=TestData_1960, x=Fertility.Rate, xlab = "Fertility", y=Life_1960, ylab = "Life Expectancy", main = "Year 1960", color=Region, size=I(1))
+Data_1960 <- Data[filter_1960,]
+Data_1960
 
-# [F] 1960
+#Nos permite visualizar el Data_1960
+#It allows us to visualize the Data_1960
+head(Data_1960)
+Data_1960 <- merge(Data_1960, DataLife, by.x = "Country.Code", by.y = "Code")
+
+#Nos permite visualizar el Data_2013 pero con los ejes x="country" y="code"
+#It allows us to visualize the Data_2013
+head(Data_1960)
+Data_1960$Life_2013 <- NULL
+
+#se representa el plot en el cual en el eje x sera "Fertility" y eje  y"life expentancy" el titulo sera el 1960
+#The plot is represented in which the x-axis will be "Fertility" and the y-axis "life expentancy" the title will be the year 1960
+
+head(Data_1960)
+qplot(data=Data_1960, x=Fertility.Rate, xlab = "Fertility", 
+      y=Life_1960, ylab = "Life Expectancy", 
+      main = "Grafic 1960", color=Region, size=I(1))
 
 
 #PARTE #2 
 # [I] 2013
 
-filter_2013 <- TestData$Year==2013
+filter_2013 <- Data$Year==2013
 filter_2013
-TestData_2013 <- TestData[filter_2013,]
-TestData_2013
-#Nos permite visualizar el testdata_2013
-#It allows us to visualize the testdata_2013
-head(TestData_2013)
-TestData_2013 <- merge(TestData_2013, DataLife, by.x = "Country.Code", by.y = "Code")
-#Nos permite visualizar el testdata_2013 pero con los ejes x="country" y="code"
-#It allows us to visualize the testdata_2013
-head(TestData_2013)
-TestData_2013$Life_1960 <- NULL
-head(TestData_2013)
+Data_2013 <- Data[filter_2013,]
+Data_2013
+#Nos permite visualizar el Data_2013
+#It allows us to visualize the Data_2013
+head(Data_2013)
+Data_2013 <- merge(Data_2013, DataLife, by.x = "Country.Code", by.y = "Code")
+#Nos permite visualizar el Data_2013 pero con los ejes x="country" y="code"
+#It allows us to visualize the Data_2013
+head(Data_2013)
+Data_2013$Life_1960 <- NULL
+head(Data_2013)
 
-#se representa el plot en el cual en el eje x sera "Fertility" y eje  y"life expentancy" el titulo sera el año 2013 
+#se representa el plot en el cual en el eje x sera "Fertility" y eje  y"life expentancy" el titulo sera el a?o 2013 
 #The plot is represented in which the x-axis will be "Fertility" and the y-axis "life expentancy" the title will be the year 2013
-qplot(data=TestData_2013, x=Fertility.Rate,  xlab = "Fertility", y=Life_2013, ylab = "Life Expectancy", main = "Year 2013", color=Region, size=I(1))
+qplot(data=Data_2013, x=Fertility.Rate,  xlab = "Fertility", y=Life_2013, ylab = "Life Expectancy", main = "Year 2013", color=Region, size=I(1))
 # [F] 2013
