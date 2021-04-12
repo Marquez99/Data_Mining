@@ -1,7 +1,6 @@
 # Data_Mining
 
 
-  
 
 ### Tecnológico   Nacional   de   México
 ### Instituto Tecnológico de Tijuana
