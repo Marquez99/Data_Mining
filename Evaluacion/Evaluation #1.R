@@ -44,7 +44,8 @@ qplot(data=Data_1960, x=Fertility.Rate, xlab = "Fertility",
 
 #PARTE #2 
 # [I] 2013
-
+#Nos permite filtrar las filas del año 2013
+#Allows us to filter the rows of the year 2013
 filter_2013 <- Data$Year==2013
 filter_2013
 Data_2013 <- Data[filter_2013,]
