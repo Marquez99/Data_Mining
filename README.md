@@ -34,7 +34,7 @@ JOSE CHRISTIAN ROMERO HERNANDEZ
 
 **Tijuana Baja California**
 
-[Unit 1](https://github.com/Marquez99/Data_Mining/blob/Unit_1/README.md)
+[Unit 1](https://github.com/Marquez99/Data_Mining/tree/Unit_1)
 
 [Unit 2](https://github.com/Marquez99/Data_Mining/blob/Unit_2/README.md)
 
