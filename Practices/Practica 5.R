@@ -1,4 +1,6 @@
 #Practice 5 
+#MARQUEZ KEVIN
+#YIM QUIROZ
 
 #1. Importing Data into R
 #2. Exploring Datasets: head(), tail(), summary(), str()
