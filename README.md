@@ -1,5 +1,3 @@
-
-
 # Repository for the Data Mining Class.
 
 ## National Technology of Mexico
