@@ -16,6 +16,6 @@ filter_df <- (dtframe$Genre=="action" | dtframe$Genre=="adventure" | dtframe$Gen
 
 filter_df <-dtframe[filter,]
 
-#Show the new df
+#Show the new filter
 head(filter_df)
 
