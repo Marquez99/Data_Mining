@@ -13,7 +13,7 @@ colnames(dtframe) <- c("Day_Week","Director","Genre","Title","Release_Date","Stu
 
 filter <- (dtframe$Genre=="action" | dtframe$Genre=="adventure" | dtframe$Genre=="animation" | df$Genre=="comedy" | dtframe$Genre=="drama") & (dtframe$Studio=="Buena Vista Studios" | dtframe$Studio=="Fox" | dtframe$Studio=="Paramount Pictures" | dtframe$Studio=="Sony" | dtframe$Studio=="Universal" | dtframe$Studio=="WB")
 
-filter_df <-df[filter,]
+filter_df <-dtframe[filter,]
 
 #Show the new df
 
