@@ -53,10 +53,12 @@ head(df)
 # Declaration of the input data and set values to "x" and "y"
 gg <- ggplot(df, aes(x=Genre, y=GrossPor, color=Studio,Size=Budget))
 
-
 #geom_jitter = paint the dots with a small offset
 
 #geom_boxplot Make a box diagram, which allows you to see through the quartiles, what the distribution is like, its degree of asymmetry, extreme values, the position of the median, etc.
-gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(aes(color=Budget,alpha=0.5))
+gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(alpha=0.5) + xlab("Genre")+ ylab("Gross%U")+ggtitle("Domestic Gross % Genre")
+
+#The Graphic that was Lost and be codign again
+gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(aes(color=Budget,alpha=0.5)) + xlab("Genre")+ ylab("Gross%U")+ ggtitle("Domestic Gross % Genre")
 
 
