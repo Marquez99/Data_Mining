@@ -5,15 +5,24 @@
 #Library to do the Graphic representation of the results
 library(ggplot2)
 
+#Get the directory of the Actual Working Space
+getwd()
+
+#Change working directory 
+setwd("C:/Users/kedwi/Documents/R/Data_Mining/Datasets")
+
+#Get the working directory 
+getwd()
+
 #Import the dataframe
-df <- read.csv(file.choose())
+df <- read.csv("Project-Data.csv")
+
 head(df)
 
-df <- read.csv("Project-Data.csv")
 
 #Delete usseless data
 
-filter_df <- (dtframe$Genre=="action" | dtframe$Genre=="adventure" | dtframe$Genre=="animation" | df$Genre=="comedy" | dtframe$Genre=="drama") & (dtframe$Studio=="Buena Vista Studios" | dtframe$Studio=="Fox" | dtframe$Studio=="Paramount Pictures" | dtframe$Studio=="Sony" | dtframe$Studio=="Universal" | dtframe$Studio=="WB")
+filter_df <- (df$Genre=="action" | df$Genre=="adventure" | df$Genre=="animation" | df$Genre=="comedy" | df$Genre=="drama") & (df$Studio=="Buena Vista Studios" | df$Studio=="Fox" | df$Studio=="Paramount Pictures" | df$Studio=="Sony" | df$Studio=="Universal" | df$Studio=="WB")
 
 # Show the first rows data of the file to use
 head(df)
