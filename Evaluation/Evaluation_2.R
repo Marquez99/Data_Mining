@@ -19,8 +19,7 @@ df <- read.csv("Project-Data.csv")
 
 head(df)
 
-
-#Delete usseless data
+#Delete useless data
 
 filter_df <- (df$Genre=="action" | df$Genre=="adventure" | df$Genre=="animation" | df$Genre=="comedy" | df$Genre=="drama") & (df$Studio=="Buena Vista Studios" | df$Studio=="Fox" | df$Studio=="Paramount Pictures" | df$Studio=="Sony" | df$Studio=="Universal" | df$Studio=="WB")
 
@@ -41,7 +40,7 @@ head(filter_df)
 colnames(df) <- c("Day_Week","Director","Genre","Title","Release_Date","Studio","Adjusted Gross","Budget","Gross","IMDb_Rating","MovieLens_Rating","Overseas","Overseas%","Profit","Profit%","Runtime","US","GrossPor")
 
 # Filter the data to eliminate unnecessary data
-filter_movies <- (df$Genre=="action" | df$Genre=="Adventure" | df$Genre=="Animation" | df$Genre=="Comedy" | df$Genre=="Drama") & (df$Studio=="Buena Vista Studios" | df$Studio=="Fox" | df$Studio=="Paramount Pictures" | df$Studio=="Sony" | df$Studio=="Universal" | df$Studio=="WB")
+filter_movies <- (df$Genre=="action" | df$Genre=="adventure" | df$Genre=="animation" | df$Genre=="comedy" | df$Genre=="drama") & (df$Studio=="Buena Vista Studios" | df$Studio=="Fox" | df$Studio=="Paramount Pictures" | df$Studio=="Sony" | df$Studio=="Universal" | df$Studio=="WB")
 
 # Shows the previously made filter, each data shows it as true or false
 filter_movies 
@@ -60,5 +59,4 @@ gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(alpha=0.5) + xlab
 
 #The Graphic that was Lost and be coding again
 gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(aes(color=Budget,alpha=0.5)) + xlab("Genre")+ ylab("Gross%U")+ ggtitle("Domestic Gross % Genre")
-
 
