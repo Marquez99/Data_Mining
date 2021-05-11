@@ -18,3 +18,6 @@ filter_df <-dtframe[filter,]
 #Show the new df
 
 head(filter_df)
+
+#Library to do the Graphic representaion of the results
+library(ggplot2)
