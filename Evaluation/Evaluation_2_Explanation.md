@@ -17,4 +17,4 @@ Total costs include the cost of labor, materials and expenses general, and that 
 It can be concluded that the worst way in which a production company can risk its investment is in animated films, being in a very low percentage of profit, hovering around 20% profit, compared to action movies, where
 your profit is between 50 to 60% of total returns on the initial investment
 of the movie.
-![Graphic of Evaluation Unit 2](https://lh5.googleusercontent.com/nO1CNvZDlxLhvE1FOUU9ROTkb-tN5p5UkeSXhoCvu4lViHW5lboAAnzw5Sm9ThwFMFDZOp1OTUAk6KRBaVrW9yIvsSyPdq9xCk2nBpHWjhUJDrntSesVmN__LdRXuMkbIA=w1280)
+![Graphic of Evaluation Unit 2](https://lh3.googleusercontent.com/B4vZOmLTBysjpXZHTY8u7Z15glS2C2Fn1DQOrPhw8SD1V9N4jf-mM9oOVEs_szZR-WDP-ZzK7_25vDMydr8-CoeG31wF1dvESK2Sk8AaOojoQBIXEWb-T3kyYgC1NfNzkw=w1280)
