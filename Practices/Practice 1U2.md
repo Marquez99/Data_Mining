@@ -10,14 +10,14 @@ Each of these data reflects different interesting data about this sport, such as
 
 The functions head, tail, str and summary are used to analyze the content within the dataset, in this way to appreciate them in a better way. Point scatter graph For this graph, different points must be taken into consideration, such as the type of variable that will be used in the Y and X axes, in order to build the base. To give it this instruction, the geom_point () function is used. This graph is used to see the percentage of possession per game that each of the teams had per world cup game.
 
-![Scatter PLot](https://lh3.googleusercontent.com/5npEnZwEWAE9Uz4JzX-hOO0ZPDtGL-xK3JtmscfH20zzu0YkaFXwunZVo9hyqP_QlQFOpPCnVTkZjR3-7yLgXebC9Zqwwb1Bj6CMZ7AXnAROQjzwsjXFPZS07E4OFfuYjw=w1280)
+![Scatter PLot](https://lh4.googleusercontent.com/rvp_f_BRrPM2mEiXjqW5lLXifR6gYJyZaTVA9Bw6HXlzW97IfFAbTQd-fP7gdmz5OCWhSh3is17R6FMtTbC0GyMGChJFV7o0nOtraQHZFFFXy7f-YGNWFVWrKN2JeatKAA=w1280)
 **Graph 1. Scatter plot of points**
 
 **Facet plot**
 
 This graph shows several data divided according to the parameter set in the facet_grid function, it allows us to see specifically by game the possession that each team had per game.
 
-![Goals By Country](https://lh4.googleusercontent.com/95ccIn0XMo8OMaN2G2p1CGAKDBez49TmIQXetr2BaHf8miR1vBTjGUpl-xMu9lYuoTCcYz_RU70EbfYllQ3Po9d6HwJJuZOvU0hkcQy8u57yXdqhQ7Ibb8K4RrErg7RTaw=w1280)
+![Goals By Country](https://lh4.googleusercontent.com/WYfHXpFj4bDKzPq0JNw7h5TJaZsLNpaLW--j862MJJlMsLHG-Pdt3cAoIdQxQ5rkfEnX3NYOIofiLx3WkwGB9fZ0yvjO9JBm5RpUB2CmEyjmpIHuA6lNuAumLwbHyMYH6Q=w1280)
 **Graph 2. Facet graph**
 
 **Histograms and Density Plots**
@@ -29,9 +29,9 @@ Within these, the aesthetics layer can be accessed, to be able to manipulate the
 
 Through this graph you can see represented in the axes "x" and "y", having the option to modify various parameters of the Legend, change the font of the letters, among many other things.
 
-![Possesion By Game](https://lh4.googleusercontent.com/l-RNCU-LIyXFuzUEAX3pZTGKnRboJ8_FIqpfmbt8Ey4t8n9IfMYBVHYnZ8RUroDk3L4RSBqIKtBr_izRplaBdCgF892G-E38FEz9GYFEV25j5oGRfzCNmTXiLCsIvng5hA=w1280)
+![Possesion By Game](https://lh6.googleusercontent.com/OjubIvQDEcgmnxxEMCIQ-wRs0xVSEZANqYBMVgW-KcVvMaeI8wLtFlmuKSv2HMRZ_0a-W4LdH9kM-0x9bHqlcQ4CKyyjJULE-qlmDzpQNinEBHxhj0ijztl0Ko5-o9XY9Q=w1280)
 **Graph 3. Density graph.**
 
 
-![Passes By Game](https://lh5.googleusercontent.com/0VlTwK_X-oujwB3V6gUoXCk9GDxLr4HsoKebHe7M2HTYncW68NHlKCwbN6VjbIFOcUKlmPIjgn5G6I5lAvs9I0QKeBza_8SY9TJnBMZizmJGasF6S13XbEwYutS40v9lvw=w1280)
+![Passes By Game](https://lh5.googleusercontent.com/YtOhbuXAW-E3-ibdOb4E9E1Q25HJFGCmUEJ3-dQVz01nuJs0xe_ZZI0Af7KXlcjlPr-HUNqhIOedpjdncN6jo_3PMsPXPS6FrTiXIscFWj0JE9ikE_X6gAHqE-oPZLP1Mw=w1280)
 **Graph 4. Histogram**
