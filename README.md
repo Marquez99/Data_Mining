@@ -6,6 +6,6 @@ Repositorio para la Clase de Minería de Datos.
 
 [Practices](https://github.com/Marquez99/Data_Mining/tree/Unit_2/Practices)
 
-[Investigations and Homeworks](https://github.com/Marquez99/Data_Mining/tree/Unit_1/Investigations%20and%20Homeworks)
+[Investigations and Homeworks](https://github.com/Marquez99/Data_Mining/tree/Unit_2/Investigations%20and%20Homeworks)
 
 [Evaluation](https://github.com/Marquez99/Data_Mining/tree/Unit_1/Evaluacion)
