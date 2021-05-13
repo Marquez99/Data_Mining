@@ -36,7 +36,7 @@ The functions head, tail, str and summary are used to analyze the content within
 This graph shows several data divided according to the parameter set in the facet_grid function, it allows us to see specifically by game the possession that each team had per game.
 
 - ![Goals By Country](https://lh4.googleusercontent.com/WYfHXpFj4bDKzPq0JNw7h5TJaZsLNpaLW--j862MJJlMsLHG-Pdt3cAoIdQxQ5rkfEnX3NYOIofiLx3WkwGB9fZ0yvjO9JBm5RpUB2CmEyjmpIHuA6lNuAumLwbHyMYH6Q=w1280)
-- **Graph 2. Facet graph**
+**Graph 2. Facet graph**
 
 3. **Histograms and Density Plots**
 
@@ -48,8 +48,8 @@ Within these, the aesthetics layer can be accessed, to be able to manipulate the
 Through this graph you can see represented in the axes "x" and "y", having the option to modify various parameters of the Legend, change the font of the letters, among many other things.
 
 - ![Possesion By Game](https://lh6.googleusercontent.com/OjubIvQDEcgmnxxEMCIQ-wRs0xVSEZANqYBMVgW-KcVvMaeI8wLtFlmuKSv2HMRZ_0a-W4LdH9kM-0x9bHqlcQ4CKyyjJULE-qlmDzpQNinEBHxhj0ijztl0Ko5-o9XY9Q=w1280)
-- **Graph 3. Density graph.**
+**Graph 3. Density graph.**
 
 
 - ![Passes By Game](https://lh5.googleusercontent.com/YtOhbuXAW-E3-ibdOb4E9E1Q25HJFGCmUEJ3-dQVz01nuJs0xe_ZZI0Af7KXlcjlPr-HUNqhIOedpjdncN6jo_3PMsPXPS6FrTiXIscFWj0JE9ikE_X6gAHqE-oPZLP1Mw=w1280)
-- **Graph 4. Histogram**
+ **Graph 4. Histogram**
