@@ -60,4 +60,4 @@ gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(alpha=0.5) + xlab
 #The Graphic that was Lost and be coding again
 gg + geom_jitter(aes(color=Studio,size=Budget)) + geom_boxplot(aes(color=Budget,alpha=0.5)) + xlab("Genre")+ ylab("Gross%U")+ ggtitle("Domestic Gross % Genre")
 
-LINK VIDEO:https://www.youtube.com/watch?v=naMUxKNFSus
+#LINK VIDEO:https://www.youtube.com/watch?v=naMUxKNFSus
