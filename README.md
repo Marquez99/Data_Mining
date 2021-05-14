@@ -35,8 +35,8 @@ JOSE CHRISTIAN ROMERO HERNANDEZ
 
 [Unit 1](https://github.com/Marquez99/Data_Mining/tree/Unit_1)
 
-[Unit 2](https://github.com/Marquez99/Data_Mining/blob/Unit_2/README.md)
+[Unit 2](https://github.com/Marquez99/Data_Mining/tree/Unit_2)
 
-[Unit 3](https://github.com/Marquez99/Data_Mining/blob/Unit_3/README.md)
+[Unit 3](https://github.com/Marquez99/Data_Mining/tree/Unit_3)
 
-[Unit 4](https://github.com/Marquez99/Data_Mining/blob/Unit_4/README.md)
+[Unit 4](https://github.com/Marquez99/Data_Mining/tree/Unit_4)
