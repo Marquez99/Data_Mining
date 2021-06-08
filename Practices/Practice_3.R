@@ -24,6 +24,7 @@ split <- sample.split(dataset$Purchased, SplitRatio = 0.75)
 training_set <- subset(dataset, split == TRUE)
 test_set <- subset(dataset, split == FALSE)
 
+#TRAINING SET PLOT
 training_set[, 1:2] <- scale(training_set[, 1:2])
 test_set[, 1:2] <- scale(test_set[, 1:2])
 
@@ -55,7 +56,7 @@ ggplot(test_set, aes(x=Age, y=Purchased)) + geom_point() +
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 
 
-#
+#USE LIBRARY
 library(ElemStatLearn)
 
 #PLOT LOGISTIC REGRESSION (TRINING TEST)
