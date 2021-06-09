@@ -24,3 +24,10 @@ library(caTools)
 split <- sample.split(dataset$Purchased, SplitRatio = 0.75)
 training_set <- subset(dataset, split == TRUE)
 test_set <- subset(dataset, split == FALSE)
+
+training_set[-3] = scale(training_set[-3])
+test_set[-3] = scale(test_set[-3])
+
+install.packages(e1071)
+library(e1071)
+classifier = naiveBayes(x = training_set[-3],y = training_set$Purchased)
