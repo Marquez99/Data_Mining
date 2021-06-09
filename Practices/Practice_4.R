@@ -5,6 +5,8 @@
 
 #reading the path
 getwd()
+
+#SET THE DIRECTORY
 setwd("C:/Users/ASUS S510U/OneDrive/Documentos/9no Semestre/MineriaDatos/Data_Mining/Practices")
 getwd()
 #Import the Social_Network_Ads csv
