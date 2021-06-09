@@ -29,5 +29,15 @@ training_set[-3] = scale(training_set[-3])
 test_set[-3] = scale(test_set[-3])
 
 install.packages(e1071)
+#USE LIBRRY E1071
 library(e1071)
 classifier = naiveBayes(x = training_set[-3],y = training_set$Purchased)
+
+#PREDICT TEST SET RESULTS
+y_pred = predict(classifier, newdata = test_set[-3])
+y_pred
+
+cm = table(test_set[, 3], y_pred)
+cm
+
+
