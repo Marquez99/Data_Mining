@@ -1,3 +1,8 @@
+#Practice 2
+#17212923 Marquez Enriquez Kevin Edwin
+#17210526 Quiroz Montes Yim Yetzhael 
+
+
 #Import the Social_Network_Ads csv
 dataset = read.csv('Social_Network_Ads.csv')
 #Read the data set
