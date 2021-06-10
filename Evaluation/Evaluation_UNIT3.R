@@ -1,7 +1,7 @@
 #EVALUATION 3 UNIT 3
 
 
-#YIM QUIROZ 17212906
+#YIM QUIROZ 17210623
 #KEVIN MARQUEZ 17212923
 
 #LOCATION ON THE ACTUAL DICTORY
@@ -11,13 +11,14 @@ getwd()
 setwd("C:/Users/kedwi/Documents/R/DataMining1/MachineLearning/LogisticRegression")
 getwd()
 
+#IMPORT THE Social_Network_Ads csv
 #SET DATASET AND PUT THE VEXTOR SIZE
 dataset <- read.csv('Social_Network_Ads.csv')
 dataset <- dataset[, 3:5]
 
 
 dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
-
+#READ LIBRARY(caTools)
 library(caTools)
 
 #SPLIT THE TRAINING AND TEST SET
@@ -41,12 +42,22 @@ cm = table(test_set[, 3], y_pred)
 cm
 
 #TRAINING SET CODING
+
+#IMPORT THE LIBRARY ElemStatLearn
+
 library(ElemStatLearn)
 set = training_set
+
+#WE DECLARE THE TRAINING SET IN A NEW GRAPH TO BE ABLE TO VISUALIZE THE RESULT
+#OF THE TRAINING SET.
 X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
 X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
 grid_set = expand.grid(X1, X2)
+
 colnames(grid_set) = c('Age', 'EstimatedSalary')
+
+#WE  USE THE TRAINING SET IN NEW GRAPH TO ABLE TO VISUALIZE THE RESULTS
+#OF THE TRAINING SET
 y_grid = predict(classifier, newdata = grid_set)
 plot(set[, -3],
      main = 'Naive Bayes (Training set)',
