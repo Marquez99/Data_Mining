@@ -9,10 +9,10 @@ The first parameter corresponds to the source of the data, in this case the data
 **Training set graph conclusion**
 
 The center line of the graph is the limit of separation of the two classifiers, thus creating the way in which the current data set is classified. It can be seen that there are two different colors in the scatter of points, and some green are on the red background, and other red on the green background.
-![enter image description here](https://lh4.googleusercontent.com/AMl8Ukxwgu_iEB6F_kdgDdAR2Fn1G436aC4OhzNyTaJ0KhD3q7uS0TlcT3mQkZut7DJ6wPzBu8rkKqTJ9BugGQQlrMteJovpBShwTzO4FEMioDQa7L9A8dQdWD73QpDgIg=w1280)
+![Training set plot](https://lh4.googleusercontent.com/AMl8Ukxwgu_iEB6F_kdgDdAR2Fn1G436aC4OhzNyTaJ0KhD3q7uS0TlcT3mQkZut7DJ6wPzBu8rkKqTJ9BugGQQlrMteJovpBShwTzO4FEMioDQa7L9A8dQdWD73QpDgIg=w1280)
 
 **Test set graph conclusion**
 
 It can be seen that the incorrect predictions were not minimized, only that being a smaller number of data, fewer results are shown in the graph.
 When analyzing the same set of information, the red region continues to represent customers who did not buy the SUV, while the green region indicates customers who did.
-![enter image description here](https://lh4.googleusercontent.com/1aztGJjZAQkvjG1Td1IMth062oPg2Oc3vNGQ1Sm8XiqaMWvBg0YW67z5IFXVYdwpZTmjCiIz7GYiX2zWx_raE3DG5eJuNRFTW0nSX5y8RDOHPyjbEj7PijdqamKlz_fXew=w1280)
+![Test set plot](https://lh4.googleusercontent.com/1aztGJjZAQkvjG1Td1IMth062oPg2Oc3vNGQ1Sm8XiqaMWvBg0YW67z5IFXVYdwpZTmjCiIz7GYiX2zWx_raE3DG5eJuNRFTW0nSX5y8RDOHPyjbEj7PijdqamKlz_fXew=w1280)
