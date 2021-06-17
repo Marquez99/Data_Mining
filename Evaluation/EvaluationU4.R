@@ -11,6 +11,7 @@ library(ggplot2)
 dataf <- iris
 head(dataf)
 
+#VECTORS SIE FOR ELBOW METHOD
 lw = dataf[1:2]
 lw2 = dataf[3:4]
 lw3 = dataf[c(1,4)]
