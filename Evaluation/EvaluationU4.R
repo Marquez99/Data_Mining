@@ -10,8 +10,23 @@ library(ggplot2)
 #Import the iris.csv
 dataf <- iris
 head(dataf)
+
+lw = dataf[1:2]
+lw2 = dataf[3:4]
+lw3 = dataf[c(1,4)]
+
+ELBOW <- function(dataset){set.seed(6)
+  wcss = vector()
+  for (i in 1:10) wcss[i] = sum(kmeans(dataset, i)$withinss)
+  plot(1:10, wcss, type = 'b',main = paste('The Elbow Method'),xlab = 'Number of clusters',ylab = 'WCSS')}
+
+ELBOW(lw)
+ELBOW(lw2)
+ELBOW(lw3)
+
 #We define a scatter diagram
-ggplot(dataf, aes(Petal.Length, Petal.Width)) + geom_point(aes(col=Species), size=4)
+ggplot(dataf, aes(Petal.Length, Petal.Wilth)) + geom_point(aes(col=Species), size=4)
+
 #We define the center which is the number of groups to which we are going to group = 3
 set.seed(101)
 irisCluster <- kmeans(dataf[,1:4], center=3, nstart=20)
