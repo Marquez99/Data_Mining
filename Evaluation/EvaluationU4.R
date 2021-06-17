@@ -16,6 +16,7 @@ lw = dataf[1:2]
 lw2 = dataf[3:4]
 lw3 = dataf[c(1,4)]
 
+#ELBOW FUNCTION VECTOR
 ELBOW <- function(dataset){set.seed(6)
   wcss = vector()
   for (i in 1:10) wcss[i] = sum(kmeans(dataset, i)$withinss)
