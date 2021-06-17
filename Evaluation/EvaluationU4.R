@@ -26,6 +26,8 @@ ELBOW(lw)
 ELBOW(lw2)
 ELBOW(lw3)
 
+#PRTE YIM 
+
 #We define a scatter diagram
 ggplot(dataf, aes(Petal.Length, Petal.Wilth)) + geom_point(aes(col=Species), size=4)
 
