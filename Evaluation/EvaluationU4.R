@@ -31,8 +31,12 @@ ggplot(dataf, aes(Petal.Length, Petal.Wilth)) + geom_point(aes(col=Species), siz
 set.seed(101)
 irisCluster <- kmeans(dataf[,1:4], center=3, nstart=20)
 irisCluster
+
 #Let's compare the groups, the old and the new
 table(irisCluster$cluster, dataf$Species)
+
 #Read library(cluster)
 library(cluster)
+
+#PLOT OF THE PROBLEM
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
