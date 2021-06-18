@@ -1,19 +1,19 @@
 
-##<p align="center">
-Instituto Tecnológico de Tijuana
-Subdirección Académica Departamento de Sistemas y Computación
 
-Semestre: Febrero-Junio 2021
+<p align="center">Instituto Tecnológico de Tijuana</p>
+<p align="center">Subdirección Académica Departamento de Sistemas y Computación</p>
 
-Materia: Mineria de datos
+<p align="center">Semestre: Febrero-Junio 2021</p>
 
-Profesor: Jose Christian Romero Hernandez
+<p align="center">Materia: Mineria de datos</p>
 
-Alumno: 17212923 Marquez Kevin
-        17210623 Quiroz Yim 
+<p align="center">Profesor: Jose Christian Romero Hernandez</p>
 
-Fecha: 17/junio/21
-</p>
+<p align="center">Alumno: 17212923 Marquez Kevin</p>
+        <p align="center">17210623 Quiroz Yim </p>
+
+<p align="center">Fecha: 17/junio/21</p>
+
 #EVALUATION 4 
 
 
