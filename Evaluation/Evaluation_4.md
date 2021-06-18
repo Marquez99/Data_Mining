@@ -1,4 +1,5 @@
 
+##<p align="center">
 Instituto Tecnológico de Tijuana
 Subdirección Académica Departamento de Sistemas y Computación
 
@@ -12,7 +13,7 @@ Alumno: 17212923 Marquez Kevin
         17210623 Quiroz Yim 
 
 Fecha: 17/junio/21
-
+</p>
 #EVALUATION 4 
 
 
@@ -25,13 +26,13 @@ library(ggplot2)
 dataf <- iris
 head(dataf)
 ~~~
-2. #VECTORS SIE FOR ELBOW METHOD
+2. Vectors sie for elbow method
 ~~~
 lw = dataf[1:2]
 lw2 = dataf[3:4]
 lw3 = dataf[c(1,4)]
 ~~~
-3. #ELBOW FUNCTION VECTOR
+3. Elbow function vector
 ~~~
 ELBOW <- function(dataset){set.seed(6)
   wcss = vector()
@@ -61,7 +62,7 @@ table(irisCluster$cluster, dataf$Species)
 ~~~
 library(cluster)
 ~~~
-8. #PLOT OF THE PROBLEM
+8. #Plot the problem
 ~~~
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
 ~~~
