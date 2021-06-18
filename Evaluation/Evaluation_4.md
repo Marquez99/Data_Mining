@@ -21,7 +21,7 @@
 ~~~
 library(ggplot2)
 ~~~
-#Import the iris.csv
+Import the iris.csv
 ~~~
 dataf <- iris
 head(dataf)
@@ -44,25 +44,25 @@ ELBOW(lw2)
 ELBOW(lw3)
 ~~~
  
-4. #We define a scatter diagram
+4. We define a scatter diagram
 ~~~
 ggplot(dataf, aes(Petal.Length, Petal.Wilth)) + geom_point(aes(col=Species), size=4)
 ~~~
-5. #We define the center which is the number of groups to which we are going to group = 3
+5. We define the center which is the number of groups to which we are going to group = 3
 ~~~
 set.seed(101)
 irisCluster <- kmeans(dataf[,1:4], center=3, nstart=20)
 irisCluster
 ~~~
-6. #Let's compare the groups, the old and the new
+6. Let's compare the groups, the old and the new
 ~~~
 table(irisCluster$cluster, dataf$Species)
 ~~~
-7. #Read library(cluster)
+7. Read library(cluster)
 ~~~
 library(cluster)
 ~~~
-8. #Plot the problem
+8. Plot the problem
 ~~~
 clusplot(iris, irisCluster$cluster, color=T, shade=T, labels=0, lines=0)
 ~~~
